@@ -11,18 +11,31 @@ body {
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-#helloWorldSubline {
-    background-color: black;
-    padding: 0.2%;
-}
-
 #introduction {
+    margin-top: 0;
     display: flex;
-    margin-top: 50px;
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     margin-left: 200px;
+}
+
+#biografyTitle {
+    margin-top: 0;
+    display: flex;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 1000px;
+    
+}
+
+#myBiografy {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    margin-right: 25px;
+    margin-left: 23cm;
+    margin-top: -50px;
+    font-size: larger;
 }
 
 #gustavoDanielsIntroduction {
@@ -35,14 +48,6 @@ body {
     text-align: center;   
 }
 
-#blueBlock {
-    background-color: cornflowerblue;
-    padding: 1%;
-    border-radius: 15px;
-    margin-right: 33cm;
-    margin-left: 1cm;
-}
-
 #Cpp {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-top: 50px;
@@ -52,27 +57,35 @@ body {
     font-size: xx-large;
 }
 
+#blueBlock {
+    background-color: cornflowerblue;
+    padding: 1%;
+    border-radius: 15px;
+    margin-right: 33cm;
+    margin-left: 1cm;
+}
+
 #cppMainCode {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 22px;
 }
 
-#mainCode {
-    margin-left: 20px;
-}
-
-#python {
-    margin-top: 20px;
+#Python {
+    margin-top: 15px;
     margin-bottom: 10px;
     margin-left: 100px;
     font-size: xx-large;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#pythonCodeBlock {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#pythonCodeContainer {
     padding: 1%;
     border-radius: 15px;
     background-color: gray;
     margin-right: 33cm;
     margin-left: 1cm;
+}
+
+#pythonMainCode {
+    display: flex;
+    justify-content: center;
 }
